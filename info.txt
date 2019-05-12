@@ -1,0 +1,30 @@
+git init - inicjalizuje projekt
+git status - status projektu
+.gitignore - plik w ktorym okreslamy ktore pliki maja byc ignorowane
+git reset - usuwa z kolejki (stage)
+git rm - usuwa z repozytorium
+git checkout -- plik 
+
+
+Przegladanie zmian
+git log --oneline
+		--author="Tekst"
+		--grep="fraza"
+		-3 
+		--format="%h %an %s"
+git shortlog
+
+Przywracanie zmian
+git checkout ID - zmiana comitu
+git checkout master - powrot do glownego comitu
+git revert - odwraca zmiany z wybranego commita i zapisuje jako nowy commit
+git reset (nie uzywac na comitach wyslanych do repozytorium)
+	--mixed (default)
+	--soft
+	--hard 
+	
+	
+BRANCHE
+git branch - podglad
+git branch nazwa - nowy branch
+git checkout nazwa - zmiana brancha
